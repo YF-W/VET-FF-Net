@@ -22,7 +22,7 @@ paper address:
 
 ## 3. Module 1: VE-ViT
 
-![image-20240627135653404]([D:/Typora/md/image-20240627135653404.png](https://github.com/YF-W/VET-FF-Net/blob/d49737e83fde75bef0d4907e16bf43d095f88890/VET-FF%20Net%20module1.png))
+![image-20240627135653404](https://github.com/YF-W/VET-FF-Net/blob/d49737e83fde75bef0d4907e16bf43d095f88890/VET-FF%20Net%20module1.png)
 
 ***We propose a self-attention mechanism that consolidates multi-dimensional comprehensive information, introducing Global-Local Enhancement and Depthwise Separable Patch Embedding. This mechanism enhances the value from four aspects: global max, sequential max, global average, and sequential average, thereby enriching the value. It integrates four types of local and global feature information and reallocates and recombines them through the attention mechanism, enabling the model to better handle image content. See article for detailed structure and function.***
 
@@ -38,7 +38,7 @@ paper address:
 
 ## 4. Module 2: TGAD-FM
 
-![image-20240627135525533](D:/Typora/md/image-20240627135525533.png)
+![image-20240627135525533](https://github.com/YF-W/VET-FF-Net/blob/44a4e52e4089f5b5e02969615e04668266dafd42/VET-FF%20Net%20module2.png)
 
 ***We construct a fusion module, TGAD-FM, between the encoder and decoder for the intercoder-decoder transition, which contains three branches. (1) Channel Concatenation Attention Branch (CCab). This branch is used to capture the key region information of feature channels at different levels and scales. (2) Spital Addition Attention Branch (SAab). This branch is used to capture the spatial information of feature semantics at different levels and scales. (3) Information Reinforcement and Inhibition Branch (IRIB). This branch is used to strengthen key features and weaken secondary features. The fusion module not only extracts complementary semantic information, but also ensures the diversity of features and strengthens the key semantics.***
 
