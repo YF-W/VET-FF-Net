@@ -22,7 +22,7 @@ paper address:
 
 ## 3. Module 1: VE-ViT
 
-![image-20240627135653404](D:/Typora/md/image-20240627135653404.png)
+![image-20240627135653404]([D:/Typora/md/image-20240627135653404.png](https://github.com/YF-W/VET-FF-Net/blob/d49737e83fde75bef0d4907e16bf43d095f88890/VET-FF%20Net%20module1.png))
 
 ***We propose a self-attention mechanism that consolidates multi-dimensional comprehensive information, introducing Global-Local Enhancement and Depthwise Separable Patch Embedding. This mechanism enhances the value from four aspects: global max, sequential max, global average, and sequential average, thereby enriching the value. It integrates four types of local and global feature information and reallocates and recombines them through the attention mechanism, enabling the model to better handle image content. See article for detailed structure and function.***
 
