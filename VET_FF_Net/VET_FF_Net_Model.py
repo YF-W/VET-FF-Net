@@ -7,9 +7,9 @@ import warnings
 
 warnings.filterwarnings("ignore" , category=UserWarning)
 
-class VEET_FF_Net(nn.Module):
+class VET_FF_Net(nn.Module):
     def __init__(self):
-        super(VEET_FF_Net, self).__init__()
+        super(VET_FF_Net, self).__init__()
 
         #Encoder
         #patch_embed
@@ -100,7 +100,7 @@ class VEET_FF_Net(nn.Module):
 
 # def test():
 #     x = torch.Tensor(1, 3, 224, 224)
-#     model=VEET_FF_Net()
+#     model=VET_FF_Net()
 #     preds=model(x)
 #     print(preds.shape)
 #
