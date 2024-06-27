@@ -10,7 +10,7 @@ paper address:
 
 ## 1. Architecture Overview
 
-https://github.com/YF-W/VET-FF-Net/blob/4c8a00e606ce6be9edf6de9ba876a0404565b034/VET-FF%20Net.png
+![image-20240627135653401](https://github.com/YF-W/VET-FF-Net/blob/78bbdef5fb4c9c40094ca8dd78c08030d61622d5/VET-FF%20Net.png)
 
 ***VET-FF Net is a multi-branch asymmetric codec network. Where the encoder uses ResNet 34 and ViT attention mechanism. The TGAD-FM module is introduced at the codec intersection to replace the simple processing method in the traditional U-shaped network, fusing multi-source coded features to enrich the key features such as texture and location of lesions. The decoder integrates multi-source information, including the semantic parsing results of the front layer, the ViT generalized context information, the CNN local feature information, and the key semantics of the TGAD-FM module by means of channel connectivity, so as to ensure the accuracy of the image parsing restoration.***
 
