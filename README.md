@@ -16,7 +16,7 @@ paper address:
 
 ## 2. Our network baseline
 
-VET-FF Net.png
+![image-20240627135653402](https://github.com/YF-W/VET-FF-Net/blob/3a4dd2f911976b902ee21af857443dd0619b8c96/VET-FF%20Net%20baseline.png)
 
 ***We propose a "dual encoder - single decoder" network paradigm, which, unlike the traditional single coding and decoding structure, is able to capture a richer channel tensor in terms of semantic richness, thus capturing the different semantic contents of the foci in a more comprehensive way; in terms of semantic categorization, the multi-branching structure can be used to deploy different key tasks for different branches. Based on this idea, this study constructs a dual encoder branch, which adopts ResNet and ViT respectively. the ResNet branch is used for local feature extraction, and the VE-ViT branch is used for global feature extraction.***
 
